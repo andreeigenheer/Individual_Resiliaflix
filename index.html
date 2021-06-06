@@ -7,24 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!--Carousel-->
+
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick-theme.css" />
 
     <!--Fonte-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/styles.css">
 
     <title>ResiliaFlix - Tudo que você quer ver em um só click</title>
 </head>
 <header>
+
+
     <div class="container" id="nav-container">
         <nav class="navbar navbar-expand-lg fixed-top">
             <a href="#" class="navbar-brand">
                 <img id="logo" src="./imagens/logo.JPG" alt="Logo ResiliaFlix">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="nav-toggler-icon"></span>
-                </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+                aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="nav-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link" id="home-menu">Home</a>
@@ -39,34 +48,85 @@
 </header>
 
 <body>
-    <div class="carrousel-filmes">
-        <div><img src="./imagens/Infantis/cartaz_amigos_alienigenas.jpg"></div>
-        <div><img src="./imagens/Infantis/cartaz_dora.jpg"></div>
-        <div><img src="./imagens/Infantis/cartaz_frozen.jpg"></div>
-        <div><img src="./imagens/Infantis/cartaz_laços_monica.jpg"></div>
-        <div><img src="./imagens/Infantis/cartaz_madagascar.jpg"></div>
-        <div><img src="./imagens/Infantis/cartaz_meu_amigo_vampiro.jpg"></div>
-        <div><img src="./imagens/Infantis/cartaz_rio.jpg"></div>
-        <div><img src="./imagens/Infantis/cartaz_toystory4.jpg"></div>
-        <div><img src="./imagens/Infantis/cartaz_wifi_Ralph.jpg"></div>
+    <main>
+        <div class="carousel-inner">
+            <img src="imagens/background.jpg" class="bg">
+            <div class="carousel-caption d-none d-md-block">
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary btn-lg btn-light" type="button">Não perca tempo,conheça nossos planos
+                        e ASSINE JÁ!</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <hr>
+    <div class="carousel">
+        <div><img src="imagens/filmes/Star Wars/cartaz_starWars3.jpg"></div>
+        <div><img src="imagens/filmes/Ação/rambo_ate_o_fim.jpg"></div>
+        <div><img src="imagens/filmes/Clássicos/cartaz_noviça.jpg"></div>
+        <div><img src="imagens/filmes/Ação/godzila_kong.jpg"></div>
+        <div><img src="imagens/filmes/Ação/blitz.jpg"></div>
+        <div><img src="imagens/filmes/Infantis/cartaz_wifi_Ralph.jpg"></div>
+        <div><img src="imagens/filmes/Infantis/cartaz_meu_amigo_vampiro.jpg"></div>
+        <div><img src="imagens/filmes/Star Wars/cartaz_starWars7.jpg"></div>
+        <div><img src="imagens/filmes/Ação/cartaz_django.jpg"></div>
     </div>
+    <hr>
+    <div class="carousel">
+        <div><img src="imagens/filmes/Ação/caes_de_aluguel.jpg"></div>
+        <div><img src="imagens/filmes/Clássicos/cartaz_laranjaMecanica.jpg"></div>
+        <div><img src="imagens/filmes/Fantasia/cartaz_HP.jpg"></div>
+        <div><img src="imagens/filmes/Infantis/cartaz_amigos_alienigenas.jpg"></div>
+        <div><img src="imagens/filmes/Star Wars/cartaz_starWars2.jpg"></div>
+        <div><img src="imagens/filmes/Ação/horizonte_profundo.jpg"></div>
+        <div><img src="imagens/filmes/Clássicos/cartaz_deVoltaParaOFuturo.jpg"></div>
+        <div><img src="imagens/filmes/Infantis/cartaz_madagascar.jpg"></div>
+        <div><img src="imagens/filmes/Ação/missao_impossivel.jpg"></div>
+    </div>
+    <hr>
+    <div class="carousel">
+        <div><img src="imagens/filmes/Clássicos/cartazCasablanca.jpg"></div>
+        <div><img src="imagens/filmes/Infantis/cartaz_laços_monica.jpg"></div>
+        <div><img src="imagens/filmes/Star Wars/cartaz_starWars4.jpg"></div>
+        <div><img src="imagens/filmes/Star Wars/cartaz_starWars9.jpg"></div>
+        <div><img src="imagens/filmes/Infantis/cartaz_toystory4.jpg"></div>
+        <div><img src="imagens/filmes/Infantis/cartaz_frozen.jpg"></div>
+        <div><img src="imagens/filmes/Ação/invasao.jpg"></div>
+        <div><img src="imagens/filmes/Star Wars/cartaz_starWars3.jpg"></div>
+        <div><img src="imagens/filmes/Ação/o_passageiro.jpg"></div>
+    </div>
+    <hr>
 
     <!--Scripts-->
     <!--Jquery-->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js " integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin=" anonymous "></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js "
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin=" anonymous "></script>
+
+    <!--Jquery Carousel-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./slick-1.8.1/slick/slick.min.js"></script>
+
     <!--Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js " integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT " crossorigin="anonymous "></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4 " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
     <!--Paralax - Efeitos de rolagem-->
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js "></script>
+
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/b303293aac.js " crossorigin="anonymous "></script>
-    <!-- Progessebar-->
-    <script src="js/progressbar.min.js "></script>
+
+    <!-- Progessebar
+    <script src="./js/progressbar.min.js"></script> -->
+
 
 
     <!--Desenvolvido-->
     <script src="js/script.js "></script>
+    <script src="./js/carousel.js"></script>
 
 
 </body>

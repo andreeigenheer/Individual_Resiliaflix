@@ -19,6 +19,10 @@ li {
     font-size: 14px;
 }
 
+.bg{
+    width: 100vw;
+    height: 400px;
+}
 
 /* Barra de Navegação */
 
@@ -55,7 +59,7 @@ header,
 
 
 /*carrosel*/
-
-.carrousel-filmes {
-    display: inline;
+.carousel{
+    margin: 50px 0px;
 }
+
