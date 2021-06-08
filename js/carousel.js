@@ -1,16 +1,16 @@
 
 $('.carousel').slick({
-  dots: true,
+  dots: false,
   infinite: true,
   speed: 300,
-  slidesToShow: 6,
-  slidesToScroll: 4,
+  slidesToShow: 5,
+  slidesToScroll: 1,
   responsive: [
     {
       breakpoint: 1024,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         infinite: true,
         dots: true
       }
@@ -19,7 +19,7 @@ $('.carousel').slick({
       breakpoint: 600,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToScroll: 1
       }
     },
     {
@@ -34,4 +34,6 @@ $('.carousel').slick({
     // instead of a settings object
   ]
 });
+
+
 			

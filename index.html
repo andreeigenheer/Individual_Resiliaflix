@@ -22,45 +22,45 @@
 
     <title>ResiliaFlix - Tudo que você quer ver em um só click</title>
 </head>
-<header>
-
-
-    <div class="container" id="nav-container">
-        <nav class="navbar navbar-expand-lg fixed-top">
-            <a href="#" class="navbar-brand">
-                <img id="logo" src="./imagens/logo.JPG" alt="Logo ResiliaFlix">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
-                aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="nav-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" id="home-menu">Home</a>
-                    <a class="nav-item nav-link" id="em-cartaz-menu">Em Cartaz</a>
-                    <a class="nav-item nav-link" id="login-menu">Login</a>
-                    <a class="nav-item nav-link" id="Esqueci-menu">Esqueci Minha Senha!</a>
-                    <a class="nav-item nav-link" id="contato-menu">Contato</a>
-                </div>
-            </div>
-        </nav>
-    </div>
-</header>
 
 <body>
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a href="#" class="navbar-brand">
+                    <img id="logo" src="./imagens/logo.JPG" alt="Logo ResiliaFlix">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+                    aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" id="home-menu" href="./index.html">Home</a>
+                        <a class="nav-item nav-link" id="em-cartaz-menu" href="./html/catalogo.html">Em Cartaz</a>
+                        <a class="nav-item nav-link" id="login-menu">Login</a>
+                        <a class="nav-item nav-link" id="Esqueci-menu">Esqueci Minha Senha!</a>
+                        <a class="nav-item nav-link" id="contato-menu">Contato</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <br>
+    <br>
+    <br>
+
     <main>
         <div class="carousel-inner">
             <img src="imagens/background.jpg" class="bg">
             <div class="carousel-caption d-none d-md-block">
                 <div class="d-grid gap-2">
-                    <button class="btn btn-primary btn-lg btn-light" type="button">Não perca tempo,conheça nossos planos
-                        e ASSINE JÁ!</button>
+                    <a class="btn btn-light btn-lg" role="button" href="./html/planos.html">Não Perca tempo e ASSINE
+                        JÁ!</a>
                 </div>
             </div>
         </div>
     </main>
-
-    <hr>
     <div class="carousel">
         <div><img src="imagens/filmes/Star Wars/cartaz_starWars3.jpg"></div>
         <div><img src="imagens/filmes/Ação/rambo_ate_o_fim.jpg"></div>
@@ -72,7 +72,7 @@
         <div><img src="imagens/filmes/Star Wars/cartaz_starWars7.jpg"></div>
         <div><img src="imagens/filmes/Ação/cartaz_django.jpg"></div>
     </div>
-    <hr>
+
     <div class="carousel">
         <div><img src="imagens/filmes/Ação/caes_de_aluguel.jpg"></div>
         <div><img src="imagens/filmes/Clássicos/cartaz_laranjaMecanica.jpg"></div>
@@ -84,7 +84,7 @@
         <div><img src="imagens/filmes/Infantis/cartaz_madagascar.jpg"></div>
         <div><img src="imagens/filmes/Ação/missao_impossivel.jpg"></div>
     </div>
-    <hr>
+
     <div class="carousel">
         <div><img src="imagens/filmes/Clássicos/cartazCasablanca.jpg"></div>
         <div><img src="imagens/filmes/Infantis/cartaz_laços_monica.jpg"></div>
@@ -96,7 +96,7 @@
         <div><img src="imagens/filmes/Star Wars/cartaz_starWars3.jpg"></div>
         <div><img src="imagens/filmes/Ação/o_passageiro.jpg"></div>
     </div>
-    <hr>
+
 
     <!--Scripts-->
     <!--Jquery-->
@@ -113,22 +113,19 @@
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
 
-    <!--Paralax - Efeitos de rolagem-->
-    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js "></script>
-
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/b303293aac.js " crossorigin="anonymous "></script>
-
-    <!-- Progessebar
-    <script src="./js/progressbar.min.js"></script> -->
-
-
 
     <!--Desenvolvido-->
     <script src="js/script.js "></script>
     <script src="./js/carousel.js"></script>
 
-
 </body>
+<footer>
+    <div class="footer">
+        <p class="copyright">&reg;ResiliaFlix - Todos os direitos reservados 2021</p>
+        <p class="copyright">&reg;Desenvolvido por André Eigenheer 2021</p>
+    </div>
+</footer>
 
 </html>
